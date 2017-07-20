@@ -1,6 +1,6 @@
 html {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 140%;
     font-family: Helvetica;
 }
 
@@ -70,4 +70,70 @@ header .container {
 .banner.container {
     display: flex;
     justify-content: flex-end;
+}
+
+.products {
+    margin: 3rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    display: inline-flex;
+    height: 8rem;
+    flex-direction: column;
+    width: 5rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 3rem 0 3rem;
+    text-align: center;
+    line-height: 150%;
+}
+
+.product img {
+    width: 5rem;
+}
+
+#exams-img {
+    width: 3rem;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+}
+
+.contact-title {
+    width: 10rem;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact {
+    width: 35%;
+    margin-right: 5%;
+}
+
+.contact p {
+    line-height: 1.5;
+    margin-bottom: 5rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    background-color: azure;
+    padding: 4rem;
+    align-items: center;
+}
+
+footer img {
+    height: 1.5rem;
+    margin-right: 1rem;
 }
